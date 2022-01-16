@@ -41,7 +41,7 @@
 
 ## API端开发构思
 内容分为题库、意见反馈、使用记录、用户管理几个部分
-具体可以到``` 爱刷题PLUS--WECHAT ```和``` 爱刷题PLUS--ADMIN ```中查看
+具体可以到[爱刷题PLUS--ADMIN](https://github.com/moke8/aishuati-plus-admin/)和[爱刷题PLUS--WECHAT](https://github.com/moke8/aishuati-plus-wechat/)中查看
 
 ## 配置
 ### 小程序配置
