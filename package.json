@@ -1,0 +1,25 @@
+{
+  "name": "zt-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.1",
+    "koa-router": "^10.0.0",
+    "mysql": "^2.18.1",
+    "request": "^2.88.2"
+  },
+  "dependencies": {
+    "koa-body": "^4.2.0",
+    "koa-cors": "0.0.16",
+    "koa-static": "^5.0.0",
+    "node-xlsx": "^0.17.1"
+  }
+}
