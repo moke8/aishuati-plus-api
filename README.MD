@@ -1,5 +1,7 @@
 # 爱刷题PLUS--API
-爱刷题PLUS在[爱刷题](https://github.com/moke8/aishuati/)的基础上，舍弃了部署简单、纯前端部署等优势，加入了管理后台、更加方便管理操作和题库录入、修改等。在UI界面上采用了新的设计（原本大概属于没有设计）。
+爱刷题PLUS在[爱刷题](https://github.com/moke8/aishuati/)的基础上，舍弃了部署简单、纯前端部署等优势，加入了管理后台、更加方便管理操作和题库录入、修改等。
+
+在UI界面上采用了新的设计（原本大概属于没有设计）。
 
 具体内容可以查看[爱刷题PLUS--ADMIN](https://github.com/moke8/aishuati-plus-admin/)和[爱刷题PLUS--WECHAT](https://github.com/moke8/aishuati-plus-wechat/).
 
@@ -7,6 +9,7 @@
 
 ### 录入优化
 支持JSON题库录入（[（WORD转json）](https://github.com/moke8/aishuati/)）、Excel题库录入、Word文档录入
+
 支持后台在线修改题库以及内容
 
 ### 星标题库
@@ -52,4 +55,5 @@ sql/index.js
 
 ## 开发
 API内容主要分为admin和wechat两个部分，分别对应管理后台和小程序的API。
+
 在层级上分为router、controllers、sql三个部分，也就是路由、控制器、数据库语句。
